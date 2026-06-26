@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block no pages — everything is public
+Disallow:
+
+Sitemap: https://urafikifellowship.org/sitemap.xml
