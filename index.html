@@ -435,11 +435,29 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
 .fade.vis{opacity:1;transform:translateY(0)}
 
 @media(max-width:900px){
-  nav{padding:0 20px}
+  /* NAV */
+  nav{padding:0 16px;height:64px}
+  :root{--nh:64px}
   .nlinks{display:none}
   .hbg{display:block}
-  .sec{padding:64px 20px}
-  .ph{padding:104px 20px 52px}
+  .nbn{font-size:16px}
+
+  /* HERO — fix title visibility on mobile */
+  .hero{min-height:100svh;min-height:100vh;align-items:flex-end}
+  .hc{padding:80px 20px 48px}
+  .heyebrow{font-size:11px;margin-bottom:12px}
+  .hero h1{font-size:clamp(26px,7vw,38px);margin-bottom:16px;max-width:100%}
+  .hsub{font-size:15px;margin-bottom:24px;max-width:100%}
+  .hbtns{flex-direction:column;gap:10px;width:100%}
+  .bhp,.bho{width:100%;text-align:center;justify-content:center;padding:15px 20px;font-size:15px}
+
+  /* SECTIONS */
+  .sec{padding:52px 20px}
+  .ph{padding:96px 20px 48px}
+  .lead{font-size:15px;margin-bottom:36px}
+  .h2{font-size:26px}
+
+  /* GRIDS */
   .mgrid,.pgrid,.wgrid,.gbvpillars,.gbvstats,.swgrid,.sgrid{grid-template-columns:1fr}
   .igrid{grid-template-columns:1fr 1fr}
   .dlayout{grid-template-columns:1fr}
@@ -452,8 +470,27 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
   .pgrid3{grid-template-columns:1fr}
   .agrid{grid-template-columns:repeat(2,1fr)}
   .ambbox{grid-template-columns:1fr}
+
+  /* STATS */
   .statstrip-inner{grid-template-columns:1fr 1fr}
   .statitem:nth-child(2){border-right:none}
+  .statnum{font-size:28px}
+
+  /* CARDS */
+  .mcard{padding:24px}
+  .pcard .pbody{padding:20px}
+  .gbvbox{padding:28px}
+  .wcard{padding:24px}
+
+  /* BUTTONS */
+  .btn{width:100%;justify-content:center}
+
+  /* FOOTER */
+  .ftop{grid-template-columns:1fr;gap:32px}
+  .fbot{flex-direction:column;text-align:center;gap:6px}
+
+  /* DONATE */
+  .dright{padding:24px}
 }
 
 /* CONTACT PAGE */
