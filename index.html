@@ -525,6 +525,14 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
 .skip-link:focus{position:fixed;top:0;left:0;width:auto;height:auto;padding:12px 20px;background:var(--navy);color:#fff;font-size:14px;font-weight:600;z-index:9999;outline:none}</style>
 </head>
 <body>
+<!-- Netlify Forms bot detection — do not remove -->
+<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name"/>
+  <input type="email" name="email"/>
+  <input type="tel" name="phone"/>
+  <textarea name="message"></textarea>
+  <input name="bot-field"/>
+</form>
 <a href="#main-content" class="skip-link">Skip to main content</a>
 <nav id="nav">
   <div class="nl" data-page="home">
