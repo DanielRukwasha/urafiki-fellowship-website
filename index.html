@@ -70,6 +70,11 @@
       "description": "A youth-led nonprofit delivering education, peacebuilding, and women's empowerment programs in Goma, eastern Democratic Republic of Congo.",
       "email": "info@urafikifellowship.org",
       "foundingDate": "2020",
+      "founder": {
+        "@type": "Person",
+        "name": "Daniel Rukwasha",
+        "url": "https://urafikifellowship.org/daniel-rukwasha.html"
+      },
       "nonprofitStatus": "Nonprofit501c3",
       "areaServed": {
         "@type": "Place",
@@ -522,6 +527,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
     <a data-page="impact" id="nv-impact" data-en="Impact" data-fr="Impact">Impact</a>
     <a data-page="involved" id="nv-involved" data-en="Get Involved" data-fr="S'impliquer">Get Involved</a>
     <a data-page="contact" id="nv-contact" data-en="Contact" data-fr="Contact">Contact</a>
+    <a href="daniel-rukwasha.html" class="ncta" data-en="Founder" data-fr="Fondateur">Founder</a>
   </div>
   <div class="nr">
     <div class="lt">
@@ -541,6 +547,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
   <a data-page="programs" data-en="Programs" data-fr="Programmes">Programs</a>
   <a data-page="impact" data-en="Impact" data-fr="Impact">Impact</a>
   <a data-page="involved" data-en="Get Involved" data-fr="S'impliquer">Get Involved</a>
+  <a href="daniel-rukwasha.html" style="color:var(--gold)" data-en="Founder" data-fr="Fondateur">Founder</a>
 </div>
 
 <main id="page-home" role="main" class="pg act">
@@ -657,6 +664,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
         </div>
         <div style="display:flex;gap:14px;margin-top:8px;flex-wrap:wrap">
           <button class="btn bo" data-page="about" data-en="Read the full story" data-fr="Lire l'histoire complète">Read the full story</button>
+          <a href="daniel-rukwasha.html" class="btn bp" data-en="View full profile →" data-fr="Voir le profil complet →">View full profile →</a>
         </div>
       </div>
     </div>
@@ -694,6 +702,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
             <h4>Daniel Rukwasha</h4>
             <div class="trole" data-en="Founder" data-fr="Fondateur">Founder</div>
             <p data-en="Computer Science &amp; Economics, Berea College, KY. Born in eastern DRC." data-fr="Informatique et économie, Berea College, KY.">Computer Science &amp; Economics, Berea College, KY. Born in eastern DRC.</p>
+            <a href="daniel-rukwasha.html" style="font-size:12.5px;font-weight:600;color:var(--gold-deep);margin-top:10px;display:inline-block" data-en="View full profile →" data-fr="Voir le profil complet →">View full profile →</a>
           </div>
         </div>
         <div class="tcard">
@@ -1214,6 +1223,10 @@ document.addEventListener('DOMContentLoaded', function() {
       showPage(el.getAttribute('data-page'));
     });
   });
+
+  // Allow direct linking from external pages via ?goto=about etc.
+  var gotoParam = new URLSearchParams(window.location.search).get('goto');
+  if(gotoParam) showPage(gotoParam);
 
   var nav = document.getElementById('nav');
   window.addEventListener('scroll', function(){

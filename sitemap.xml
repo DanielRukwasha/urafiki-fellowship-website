@@ -4,9 +4,19 @@
   <url>
     <loc>https://urafikifellowship.org/</loc>
     <lastmod>2026-06-26</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://urafikifellowship.org/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://urafikifellowship.org/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urafikifellowship.org/"/>
+  </url>
+  <url>
+    <loc>https://urafikifellowship.org/daniel-rukwasha.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://urafikifellowship.org/daniel-rukwasha.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://urafikifellowship.org/daniel-rukwasha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://urafikifellowship.org/daniel-rukwasha.html"/>
   </url>
 </urlset>
