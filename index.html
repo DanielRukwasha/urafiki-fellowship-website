@@ -495,6 +495,17 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
   <textarea name="message"></textarea>
   <input name="bot-field"/>
 </form>
+<form name="ambassador" netlify netlify-honeypot="bot-field-amb" hidden>
+  <input type="text" name="first-name"/>
+  <input type="text" name="last-name"/>
+  <input type="email" name="email"/>
+  <input type="tel" name="phone"/>
+  <input type="text" name="country"/>
+  <input type="text" name="organization"/>
+  <textarea name="motivation"></textarea>
+  <textarea name="representation"></textarea>
+  <input name="bot-field-amb"/>
+</form>
 <a href="#main-content" class="skip-link">Skip to main content</a>
 <nav id="nav">
   <div class="nl" data-page="home">
@@ -539,7 +550,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
     <div class="hc">
       <div class="heyebrow" data-en="Goma, North Kivu, Eastern DRC" data-fr="Goma, Nord-Kivu, Est de la RDC">Goma, North Kivu, Eastern DRC</div>
       <h1 data-en="Education, peace, and dignity for the youth of eastern DRC." data-fr="Éducation, paix et dignité pour les jeunes de l'est de la RDC.">Education, peace, and dignity for the youth of eastern DRC.</h1>
-      <p class="hsub" data-en="Urafiki Fellowship is a locally rooted organization in Goma, North Kivu, running youth-led education, peacebuilding, and women's empowerment programs led by community teams on the ground." data-fr="Urafiki Fellowship dirige des programmes d'éducation, de consolidation de la paix et d'autonomisation des femmes au Nord-Kivu engagé pour un avenir pacifique et digne pour les jeunes de l'est de la RDC.">Urafiki Fellowship is a locally rooted organization in Goma, North Kivu, running youth-led education, peacebuilding, and women's empowerment programs led by community teams on the ground.</p>
+      <p class="hsub" data-en="Urafiki Fellowship runs youth-led education, peacebuilding, and women's empowerment programs across North Kivu, creating lasting impact for youth and communities in eastern DRC." data-fr="Urafiki Fellowship dirige des programmes d'éducation, de consolidation de la paix et d'autonomisation des femmes au Nord-Kivu engagé pour un avenir pacifique et digne pour les jeunes de l'est de la RDC.">Urafiki Fellowship runs youth-led education, peacebuilding, and women's empowerment programs across North Kivu, creating lasting impact for youth and communities in eastern DRC.</p>
       <div class="hbtns">
         <button class="bhp" data-page="contact" data-en="Contact Us" data-fr="Contactez-Nous">Contact Us</button>
         <button class="bho" data-page="programs" data-en="See Our Programs" data-fr="Voir Nos Programmes">See Our Programs</button>
@@ -625,11 +636,11 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
     <div class="founder-layout">
       <div class="fade">
         <div class="fphoto-wrap">
-          <img class="fphoto" src="images/founder.png" loading="lazy" alt="Daniel Rukwasha, Founder and Executive Director"/>
+          <img class="fphoto" src="images/founder.png" loading="lazy" alt="Daniel Rukwasha, Founder"/>
           <div class="fphoto-frame"></div>
         </div>
         <div class="fname">Daniel Rukwasha</div>
-        <div class="ftitle" data-en="Founder &amp; Executive Director" data-fr="Fondateur et Directeur Exécutif">Founder &amp; Executive Director</div>
+        <div class="ftitle" data-en="Founder" data-fr="Fondateur">Founder</div>
         <div class="flangs">
           <span class="langtag">French</span>
           <span class="langtag">English</span>
@@ -641,7 +652,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
         <div class="eyebrow" data-en="Founder's Message" data-fr="Message du Fondateur">Founder's Message</div>
         <p class="fquote" data-en="&ldquo;I did not choose this cause. This cause chose me.&rdquo;" data-fr="&laquo;Je n&#39;ai pas choisi cette cause. Cette cause m&#39;a choisi.&raquo;">"I did not choose this cause. This cause chose me."</p>
         <div class="fbio">
-          <p data-en="Originally from eastern DRC, I founded Urafiki Fellowship while studying Computer Science &amp; Quantitative Economics at Berea College, Kentucky, on a full-tuition merit scholarship. The organization is managed and operated locally in Goma, North Kivu, by community teams on the ground." data-fr="Originaire de l'est de la RDC, j'ai fondé Urafiki Fellowship en étudiant l'informatique et l'économie quantitative au Berea College, Kentucky, avec une bourse mérite de plein droit.">Originally from eastern DRC, I founded Urafiki Fellowship while studying Computer Science &amp; Quantitative Economics at Berea College, Kentucky, on a full-tuition merit scholarship. The organization is managed and operated locally in Goma, North Kivu, by community teams on the ground.</p>
+          <p data-en="Originally from eastern DRC, I founded Urafiki Fellowship while studying Computer Science &amp; Quantitative Economics at Berea College, Kentucky, on a full-tuition merit scholarship. My work is rooted in a personal commitment to Goma and North Kivu &mdash; the place I am from." data-fr="Originaire de l'est de la RDC, j'ai fondé Urafiki Fellowship en étudiant l'informatique et l'économie quantitative au Berea College, Kentucky, avec une bourse mérite de plein droit.">Originally from eastern DRC, I founded Urafiki Fellowship while studying Computer Science &amp; Quantitative Economics at Berea College, Kentucky, on a full-tuition merit scholarship. My work is rooted in a personal commitment to Goma and North Kivu &mdash; the place I am from.</p>
           <p data-en="The girls of eastern DRC did not choose to be born into conflict. But we can choose to respond &mdash; with education, with dignity, and with trust in young people's ability to lead their communities into a different future." data-fr="Les filles de l'est de la RDC n'ont pas choisi de naître dans un conflit. Mais nous pouvons choisir de répondre &mdash; avec l'éducation et la dignité.">The girls of eastern DRC did not choose to be born into conflict. But we can choose to respond &mdash; with education, with dignity, and with trust in young people's ability to lead their communities into a different future.</p>
         </div>
         <div style="display:flex;gap:14px;margin-top:8px;flex-wrap:wrap">
@@ -681,7 +692,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
           <div class="tav">DR</div>
           <div class="tinfo">
             <h4>Daniel Rukwasha</h4>
-            <div class="trole" data-en="Founder &amp; Executive Director" data-fr="Fondateur et Directeur Exécutif">Founder &amp; Executive Director</div>
+            <div class="trole" data-en="Founder" data-fr="Fondateur">Founder</div>
             <p data-en="Computer Science &amp; Economics, Berea College, KY. Born in eastern DRC." data-fr="Informatique et économie, Berea College, KY.">Computer Science &amp; Economics, Berea College, KY. Born in eastern DRC.</p>
           </div>
         </div>
@@ -970,7 +981,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
             <svg class="icon icon-lg swicon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
             <h3 data-en="Become an Ambassador" data-fr="Devenir Ambassadeur">Become an Ambassador</h3>
             <p data-en="Ambassadors represent Urafiki Fellowship at their schools, workplaces, and communities." data-fr="Les ambassadeurs représentent Urafiki Fellowship.">Ambassadors represent Urafiki Fellowship at their schools, workplaces, and communities.</p>
-            <a class="btn bp" href="mailto:info@urafikifellowship.org?subject=Ambassador%20Program%20-%20Urafiki%20Fellowship" data-en="Apply to be an ambassador" data-fr="Devenir ambassadeur">Apply to be an ambassador</a>
+            <button class="btn bp" id="btn-ambassador" data-en="Apply to be an ambassador" data-fr="Devenir ambassadeur">Apply to be an ambassador</button>
           </div>
           <div class="swcard fade">
             <svg class="icon icon-lg swicon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
@@ -1007,12 +1018,47 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
             </ul>
           </div>
           <div>
-            <a class="btn bgold" href="mailto:info@urafikifellowship.org?subject=Ambassador%20Program%20Application" data-en="Apply to be an ambassador" data-fr="Postuler">Apply to be an ambassador</a>
+            <button class="btn bgold" id="btn-ambassador2" data-en="Apply to be an ambassador" data-fr="Postuler">Apply to be an ambassador</button>
           </div>
         </div>
       </div>
     </section>
-  </div>
+  
+  <div id="ambassador-section" style="display:none">
+    <div class="fpage">
+      <div class="finner">
+        <div class="fback" id="back-ambassador"><svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg> <span data-en="Back to Get Involved" data-fr="Retour à S'impliquer">Back to Get Involved</span></div>
+        <div class="eyebrow" data-en="Ambassador Application" data-fr="Candidature Ambassadeur">Ambassador Application</div>
+        <div class="ftitle2" data-en="Become a voice for eastern DRC" data-fr="Devenez une voix pour l'est de la RDC">Become a voice for eastern DRC</div>
+        <p class="fsub" data-en="Ambassadors represent Urafiki Fellowship at their schools, workplaces, and communities. Fill in this form and we will get back to you." data-fr="Les ambassadeurs représentent Urafiki Fellowship dans leurs communautés.">Ambassadors represent Urafiki Fellowship at their schools, workplaces, and communities. Fill in this form and we will get back to you.</p>
+        <form id="ambassador-form" name="ambassador" data-netlify="true" data-netlify-honeypot="bot-field-amb" onsubmit="submitAmbassador(event)">
+          <input type="hidden" name="form-name" value="ambassador"/>
+          <input name="bot-field-amb" style="display:none"/>
+          <div class="frow">
+            <div class="fg"><label data-en="First Name" data-fr="Prénom">First Name <span class="req">*</span></label><input type="text" name="first-name" class="fi" placeholder="John" required/></div>
+            <div class="fg"><label data-en="Last Name" data-fr="Nom">Last Name <span class="req">*</span></label><input type="text" name="last-name" class="fi" placeholder="Doe" required/></div>
+          </div>
+          <div class="frow">
+            <div class="fg"><label>Email <span class="req">*</span></label><input type="email" name="email" class="fi" placeholder="john@example.com" required/></div>
+            <div class="fg"><label data-en="Phone / WhatsApp" data-fr="Téléphone / WhatsApp">Phone / WhatsApp</label><input type="tel" name="phone" class="fi" placeholder="+1 555 000 0000"/></div>
+          </div>
+          <div class="frow">
+            <div class="fg"><label data-en="Country of Residence" data-fr="Pays de Résidence">Country <span class="req">*</span></label><input type="text" name="country" class="fi" placeholder="USA" required/></div>
+            <div class="fg"><label data-en="School / Organization" data-fr="École / Organisation">School / Organization</label><input type="text" name="organization" class="fi" placeholder="e.g. Berea College"/></div>
+          </div>
+          <div class="fg"><label data-en="Why do you want to be an ambassador?" data-fr="Pourquoi voulez-vous être ambassadeur ?">Why do you want to be an ambassador? <span class="req">*</span></label><textarea name="motivation" class="fi" rows="4" placeholder="Tell us your motivation and connection to the cause..." required></textarea></div>
+          <div class="fg"><label data-en="How will you represent Urafiki in your community?" data-fr="Comment représenterez-vous Urafiki dans votre communauté ?">How will you represent Urafiki in your community? <span class="req">*</span></label><textarea name="representation" class="fi" rows="4" placeholder="Events, social media, campus groups, etc." required></textarea></div>
+          <button type="submit" class="fsub2" data-en="Submit application" data-fr="Soumettre la candidature">Submit application</button>
+        </form>
+        <div id="ambassador-success" style="display:none;text-align:center;padding:60px 20px">
+          <svg class="icon" style="width:48px;height:48px;color:var(--gold);margin-bottom:18px" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h2 style="color:var(--navy);margin-bottom:10px" data-en="Application received!" data-fr="Candidature reçue !">Application received!</h2>
+          <p style="color:var(--ink-soft)" data-en="Thank you for applying to be a Urafiki Ambassador. We will review your application and contact you within 5-7 business days." data-fr="Merci pour votre candidature. Nous vous contacterons sous 5 à 7 jours ouvrables.">Thank you for applying to be a Urafiki Ambassador. We will review your application and contact you within 5-7 business days.</p>
+          <div id="back-ambassador-success" style="cursor:pointer;margin-top:24px;color:var(--navy);font-weight:600;display:inline-flex;align-items:center;gap:6px"><svg class="icon icon-sm" viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg> <span data-en="Back to Get Involved" data-fr="Retour">Back to Get Involved</span></div>
+        </div>
+      </div>
+    </div>
+  </div></div>
 </main>
 
 
@@ -1116,6 +1162,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
         <h4 data-en="Contact" data-fr="Contact">Contact</h4>
         <a href="mailto:info@urafikifellowship.org">info@urafikifellowship.org</a>
         <a data-en="Goma, North Kivu, DRC" data-fr="Goma, Nord-Kivu, RDC">Goma, North Kivu, DRC</a>
+        <a data-en="Berea College, Kentucky, USA" data-fr="Berea College, Kentucky, États-Unis">Berea College, Kentucky, USA</a>
       </div>
       <div class="fc">
         <h4 data-en="Stay Updated" data-fr="Restez Informé">Stay Updated</h4>
@@ -1364,6 +1411,61 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   triggerFade();
 });
+
+  // Ambassador form — Netlify Forms
+  var btnAmb  = document.getElementById('btn-ambassador');
+  var btnAmb2 = document.getElementById('btn-ambassador2');
+  var ambSec  = document.getElementById('ambassador-section');
+  var backAmb = document.getElementById('back-ambassador');
+  var backAmbSuccess = document.getElementById('back-ambassador-success');
+
+  function showAmbassador(){
+    if(invSec)  invSec.style.display='none';
+    if(invHero) invHero.style.display='none';
+    if(stwSec)  stwSec.style.display='none';
+    if(ambSec)  ambSec.style.display='block';
+    var af=document.getElementById('ambassador-form'), as2=document.getElementById('ambassador-success');
+    if(af) af.style.display='block';
+    if(as2) as2.style.display='none';
+    window.scrollTo({top:0,behavior:'smooth'});
+    setTimeout(triggerFade,60);
+  }
+  function hideAmbassador(){
+    if(invSec)  invSec.style.display='';
+    if(invHero) invHero.style.display='';
+    if(ambSec)  ambSec.style.display='none';
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+  if(btnAmb)  btnAmb.addEventListener('click', showAmbassador);
+  if(btnAmb2) btnAmb2.addEventListener('click', showAmbassador);
+  if(backAmb) backAmb.addEventListener('click', hideAmbassador);
+  if(backAmbSuccess) backAmbSuccess.addEventListener('click', hideAmbassador);
+
+  window.submitAmbassador = async function(e){
+    e.preventDefault();
+    var form = document.getElementById('ambassador-form');
+    var btn  = form.querySelector('button[type="submit"]');
+    var origText = btn.textContent;
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+    var data = new FormData(form);
+    var body = new URLSearchParams();
+    data.forEach(function(v,k){ body.append(k,v); });
+    try {
+      var res = await fetch('/', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'}, body: body.toString() });
+      if(res.ok){
+        form.style.display='none';
+        document.getElementById('ambassador-success').style.display='block';
+        window.scrollTo({top:0,behavior:'smooth'});
+      } else {
+        alert('Something went wrong. Please email us at info@urafikifellowship.org');
+        btn.textContent = origText; btn.disabled = false;
+      }
+    } catch(err){
+      alert('Network error. Please email us at info@urafikifellowship.org');
+      btn.textContent = origText; btn.disabled = false;
+    }
+  };
 </script>
 </body>
 </html>
