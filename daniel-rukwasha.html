@@ -45,7 +45,7 @@
   "givenName": "Daniel",
   "familyName": "Rukwasha",
   "jobTitle": "Founder and Executive Director, Urafiki Fellowship",
-  "description": "Daniel Rukwasha is the Founder and Executive Director of Urafiki Fellowship, a humanitarian education nonprofit based in Goma, North Kivu, in the Democratic Republic of the Congo, focused on youth empowerment, peacebuilding, and civic leadership. Originally from eastern DRC, he speaks French, English, Swahili, and Lingala, and is currently a sophomore at Berea College in Kentucky, USA, double majoring in Computer Science and Quantitative Economics, with an expected graduation date of May 2028.",
+  "description": "Daniel Rukwasha is the Founder and Executive Director of Urafiki Fellowship, a humanitarian education nonprofit based in Goma, North Kivu, in the Democratic Republic of the Congo, focused on youth empowerment, peacebuilding, and civic leadership. Originally from eastern DRC, he speaks French, English, Swahili, and Lingala, and is currently a sophomore at Berea College in Kentucky, USA, double majoring in Computer Science and Quantitative Economics.",
   "url": "https://urafikifellowship.org/daniel-rukwasha.html",
   "email": "danielruk@urafikifellowship.org",
   "image": "https://urafikifellowship.org/images/daniel-rukwasha.jpg",
@@ -232,6 +232,10 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
 .contact-strip a.btn{background:var(--gold);color:var(--navy-deep)}
 .contact-strip a.btn:hover{background:#CFA050}
 
+/* AWARD SOURCE LINKS */
+.award-source{display:inline-flex;align-items:center;gap:5px;margin-top:12px;font-size:12px;font-weight:600;color:var(--blue);text-decoration:none;letter-spacing:.02em}
+.award-source:hover{color:var(--navy);text-decoration:underline}
+
 /* MOBILE */
 @media(max-width:900px){
   nav{padding:0 16px;height:64px}
@@ -337,7 +341,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
   <div class="si">
     <div class="eyebrow fade" data-en="About" data-fr="À propos">About</div>
     <h2 class="h2 fade" data-en="About Daniel Rukwasha" data-fr="À propos de Daniel Rukwasha">About Daniel Rukwasha</h2>
-    <p class="founder-prose fade" data-en="Daniel Rukwasha is the Founder and Executive Director of Urafiki Fellowship, a humanitarian education nonprofit based in Goma, North Kivu, in the Democratic Republic of the Congo, focused on youth empowerment, peacebuilding, and civic leadership. Originally from eastern DRC, he speaks French, English, Swahili, and Lingala, and is currently a sophomore at Berea College in Kentucky, USA, double majoring in Computer Science and Quantitative Economics, with an expected graduation date of May 2028." data-fr="Daniel Rukwasha est le Fondateur et Directeur Exécutif d'Urafiki Fellowship, une organisation humanitaire à vocation éducative basée à Goma, au Nord-Kivu, en République démocratique du Congo, axée sur l'autonomisation des jeunes, la consolidation de la paix et le leadership civique. Originaire de l'est de la RDC, il parle français, anglais, swahili et lingala, et est actuellement en deuxième année au Berea College dans le Kentucky, aux États-Unis, avec une double majeure en Informatique et Économie Quantitative, avec une date de diplomation prévue en mai 2028.">Daniel Rukwasha is the Founder and Executive Director of Urafiki Fellowship, a humanitarian education nonprofit based in Goma, North Kivu, in the Democratic Republic of the Congo, focused on youth empowerment, peacebuilding, and civic leadership. Originally from eastern DRC, he speaks French, English, Swahili, and Lingala, and is currently a sophomore at Berea College in Kentucky, USA, double majoring in Computer Science and Quantitative Economics, with an expected graduation date of May 2028.</p>
+    <p class="founder-prose fade" data-en="Daniel Rukwasha is the Founder and Executive Director of Urafiki Fellowship, a humanitarian education nonprofit based in Goma, North Kivu, in the Democratic Republic of the Congo, focused on youth empowerment, peacebuilding, and civic leadership. Originally from eastern DRC, he speaks French, English, Swahili, and Lingala, and is currently a sophomore at Berea College in Kentucky, USA, double majoring in Computer Science and Quantitative Economics." data-fr="Daniel Rukwasha est le Fondateur et Directeur Exécutif d'Urafiki Fellowship, une organisation humanitaire à vocation éducative basée à Goma, au Nord-Kivu, en République démocratique du Congo, axée sur l'autonomisation des jeunes, la consolidation de la paix et le leadership civique. Originaire de l'est de la RDC, il parle français, anglais, swahili et lingala, et est actuellement en deuxième année au Berea College dans le Kentucky, aux États-Unis, avec une double majeure en Informatique et Économie Quantitative.">Daniel Rukwasha is the Founder and Executive Director of Urafiki Fellowship, a humanitarian education nonprofit based in Goma, North Kivu, in the Democratic Republic of the Congo, focused on youth empowerment, peacebuilding, and civic leadership. Originally from eastern DRC, he speaks French, English, Swahili, and Lingala, and is currently a sophomore at Berea College in Kentucky, USA, double majoring in Computer Science and Quantitative Economics.</p>
   </div>
 </section>
 
@@ -350,7 +354,7 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
 
       <div class="edu-item fade">
         <div class="edu-school">Berea College</div>
-        <div class="edu-degree" data-en="B.A., Computer Science &amp; Quantitative Economics — expected May 2028" data-fr="Licence en Informatique et Économie Quantitative — prévu mai 2028">B.A., Computer Science &amp; Quantitative Economics — expected May 2028</div>
+        <div class="edu-degree" data-en="B.A., Computer Science &amp; Quantitative Economics" data-fr="Licence en Informatique et Économie Quantitative">B.A., Computer Science &amp; Quantitative Economics</div>
         <div class="edu-detail" data-en="Full-tuition merit scholarship · Dean's List" data-fr="Bourse mérite couvrant la totalité des frais de scolarité · Tableau d'honneur du Doyen">Full-tuition merit scholarship &nbsp;·&nbsp; Dean's List</div>
       </div>
 
@@ -428,18 +432,30 @@ footer{background:var(--navy-deep);color:#fff;padding:68px 40px 30px}
         <div class="award-year-org" data-en="2025 · Médiathèque d'Hyères, France" data-fr="2025 · Médiathèque d'Hyères, France">2025 · Médiathèque d'Hyères, France</div>
         <div class="award-title" data-en="First Prize, Short Story Competition" data-fr="Premier Prix, Concours de Nouvelles">First Prize, Short Story Competition</div>
         <div class="award-desc" data-en="Awarded First Prize in the 2025 Short Story Competition organized by the Médiathèque d'Hyères for the original short story Les Ombres de l'Héritage, a work exploring family succession, cultural traditions, and intergenerational conflict." data-fr="Lauréat du Premier Prix du Concours de Nouvelles 2025 organisé par la Médiathèque d'Hyères pour la nouvelle originale Les Ombres de l'Héritage, une œuvre explorant la succession familiale, les traditions culturelles et les conflits intergénérationnels.">Awarded First Prize in the 2025 Short Story Competition organized by the Médiathèque d'Hyères for the original short story <em>Les Ombres de l'Héritage</em>, a work exploring family succession, cultural traditions, and intergenerational conflict.</div>
+        <a href="https://mediatheque.ville-hyeres.fr/images/Images_Evenements/2024/Livret_concours_de_nouvelles_2025.pdf" target="_blank" rel="noopener" class="award-source">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View competition booklet (Médiathèque d'Hyères)
+        </a>
       </div>
 
       <div class="award-card fade">
         <div class="award-year-org" data-en="2024 · Rawbank Academia × YouScribe, Democratic Republic of Congo" data-fr="2024 · Rawbank Academia × YouScribe, République démocratique du Congo">2024 · Rawbank Academia × YouScribe, Democratic Republic of Congo</div>
         <div class="award-title" data-en="Official Laureate, National Writing Competition" data-fr="Lauréat Officiel, Concours National d'Écriture">Official Laureate, National Writing Competition</div>
         <div class="award-desc" data-en="Selected among the five official laureates of the Rawbank Academia × YouScribe National Writing Competition, an initiative recognizing outstanding young literary talent through the We Act cultural program." data-fr="Sélectionné parmi les cinq lauréats officiels du Concours National d'Écriture Rawbank Academia × YouScribe, une initiative récompensant les jeunes talents littéraires exceptionnels dans le cadre du programme culturel We Act.">Selected among the five official laureates of the Rawbank Academia × YouScribe National Writing Competition, an initiative recognizing outstanding young literary talent through the We Act cultural program.</div>
+        <a href="https://www.facebook.com/AcademiaRwbk/posts/-invitation-finale-du-concours-d%C3%A9criture-we-act-youscribele-grand-jour-est-arriv/1417159457078988/" target="_blank" rel="noopener" class="award-source">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View official announcement (Rawbank Academia)
+        </a>
       </div>
 
       <div class="award-card fade">
         <div class="award-year-org" data-en="2022 · Fondation Josué Mufula, Democratic Republic of Congo" data-fr="2022 · Fondation Josué Mufula, République démocratique du Congo">2022 · Fondation Josué Mufula, Democratic Republic of Congo</div>
         <div class="award-title" data-en="Fourth Prize, Inter-School Poetry Competition for Peace" data-fr="Quatrième Prix, Concours Interscolaire de Poésie pour la Paix">Fourth Prize, Inter-School Poetry Competition for Peace</div>
         <div class="award-desc" data-en='Ranked 4th among more than 20 award recipients in the Second Inter-School Poetry Competition for Peace, organized by the Fondation Josué Mufula, bringing together students from 38 schools under the theme "Plumes pour la paix, un Congo à réinventer."' data-fr='Classé 4e parmi plus de 20 lauréats lors du Deuxième Concours Interscolaire de Poésie pour la Paix, organisé par la Fondation Josué Mufula, rassemblant des élèves de 38 écoles sous le thème « Plumes pour la paix, un Congo à réinventer. »'>Ranked 4th among more than 20 award recipients in the Second Inter-School Poetry Competition for Peace, organized by the Fondation Josué Mufula, bringing together students from 38 schools under the theme &ldquo;Plumes pour la paix, un Congo à réinventer.&rdquo;</div>
+        <a href="https://grandslacsnews.com/posts/goma-plus-de-20-eleves-primes-au-concours-de-poesie-sur-la-paix-de-la-fondation-josue-mufula-5145?author=1&page=1024" target="_blank" rel="noopener" class="award-source">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View press coverage (Grands Lacs News)
+        </a>
       </div>
 
     </div>
